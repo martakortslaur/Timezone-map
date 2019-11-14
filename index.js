@@ -1,5 +1,5 @@
  setTimeout(function() {
-        $('body').timezonePicker({
+    ('body').timezonePicker({
             hoverText: function(e, data) {
                 return (data.timezone + " (" + data.zonename + ")");
             },
